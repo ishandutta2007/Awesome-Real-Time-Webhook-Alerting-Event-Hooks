@@ -54,44 +54,44 @@ Commercial, cloud-hosted webhook alerting, event routing, and delivery platforms
 
 ## 🟩 Open-Source Webhook Infrastructure
 
-Self-hosted, community-driven webhook gateways, event proxies, and alerting runners. Sorted descending by GitHub star count: 💻
+Self-hosted, community-driven webhook gateways, event proxies, and alerting runners. Sorted descending by GitHub Stars_Count: 💻
 
-### 1. [adnanh/webhook](https://github.com/adnanh/webhook) [![GitHub stars](https://img.shields.io/github/stars/adnanh/webhook?style=social&color=white)](https://github.com/adnanh/webhook/stargazers)
+### 1. [adnanh/webhook](https://github.com/adnanh/webhook) [![GitHub_Stars](https://img.shields.io/github/stars/adnanh/webhook?style=social&color=white)](https://github.com/adnanh/webhook/stargazers)
 * **Stack:** Go | **License:** MIT 📜
 * **Description:** A lightweight, single-binary configurable incoming webhook server that receives HTTP requests, evaluates configurable JSON/header rules, and executes shell scripts or programs with arguments extracted from the payload. ⚡
 * **Best For:** Developers and sysadmins seeking a minimal, dependency-free script runner triggered by Git pushes, deployment alerts, or incoming HTTP webhooks. 🛠️
 
-### 2. [svix/svix-webhooks](https://github.com/svix/svix-webhooks) [![GitHub stars](https://img.shields.io/github/stars/svix/svix-webhooks?style=social&color=white)](https://github.com/svix/svix-webhooks/stargazers)
+### 2. [svix/svix-webhooks](https://github.com/svix/svix-webhooks) [![GitHub_Stars](https://img.shields.io/github/stars/svix/svix-webhooks?style=social&color=white)](https://github.com/svix/svix-webhooks/stargazers)
 * **Stack:** Rust / PostgreSQL / Redis | **License:** MIT / Apache-2.0 📜
 * **Description:** The open-source core of Svix, an enterprise-grade webhooks broker and delivery engine offering high-throughput dispatch, automated retries with exponential backoff, cryptographic signature verification (HMAC/Ed25519), and customer-facing management portals. 🔒
 * **Best For:** SaaS applications looking to build reliable, high-volume outbound webhooks directly into their product architecture. 🏢
 
-### 3. [frain-dev/convoy](https://github.com/frain-dev/convoy) [![GitHub stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social&color=white)](https://github.com/frain-dev/convoy/stargazers)
+### 3. [frain-dev/convoy](https://github.com/frain-dev/convoy) [![GitHub_Stars](https://img.shields.io/github/stars/frain-dev/convoy?style=social&color=white)](https://github.com/frain-dev/convoy/stargazers)
 * **Stack:** Go / PostgreSQL / Redis | **License:** Open Source (BSL / Apache-2.0 components) 📜
 * **Description:** Cloud-native, high-performance webhooks gateway designed to manage incoming and outgoing webhooks at scale with built-in rate-limiting, circuit breaking, idempotency, dead-letter queues, customer portal links, and deep observability. 🌐
 * **Best For:** Teams requiring a unified, bi-directional gateway to both ingest third-party events safely and publish high-throughput customer webhooks. 🔄
 
-### 4. [hook0/hook0](https://github.com/hook0/hook0) [![GitHub stars](https://img.shields.io/github/stars/hook0/hook0?style=social&color=white)](https://github.com/hook0/hook0/stargazers)
+### 4. [hook0/hook0](https://github.com/hook0/hook0) [![GitHub_Stars](https://img.shields.io/github/stars/hook0/hook0?style=social&color=white)](https://github.com/hook0/hook0/stargazers)
 * **Stack:** Rust / PostgreSQL | **License:** Apache-2.0 📜
 * **Description:** An open-source Webhooks-as-a-Service (WaaS) server providing an easy-to-deploy alternative to proprietary providers. Offers subscription endpoints, events routing, automatic retries, and an intuitive administrative UI. 🦀
 * **Best For:** Organizations seeking a 100% self-hosted, lightweight Rust-based webhook dispatch solution for SaaS applications. 📦
 
-### 5. [ncarlier/webhookd](https://github.com/ncarlier/webhookd) [![GitHub stars](https://img.shields.io/github/stars/ncarlier/webhookd?style=social&color=white)](https://github.com/ncarlier/webhookd/stargazers)
+### 5. [ncarlier/webhookd](https://github.com/ncarlier/webhookd) [![GitHub_Stars](https://img.shields.io/github/stars/ncarlier/webhookd?style=social&color=white)](https://github.com/ncarlier/webhookd/stargazers)
 * **Stack:** Go | **License:** MIT 📜
 * **Description:** A streamlined webhook execution daemon that turns shell scripts into HTTP endpoints with support for notification backends (Slack, email), log streaming, authentication tokens, and parameter validation. 📡
 * **Best For:** Lightweight CI/CD tasks, server automation, and DevOps alerting workflows triggered directly by webhooks. ⚙️
 
-### 6. [hookdeck/outpost](https://github.com/hookdeck/outpost) [![GitHub stars](https://img.shields.io/github/stars/hookdeck/outpost?style=social&color=white)](https://github.com/hookdeck/outpost/stargazers)
+### 6. [hookdeck/outpost](https://github.com/hookdeck/outpost) [![GitHub_Stars](https://img.shields.io/github/stars/hookdeck/outpost?style=social&color=white)](https://github.com/hookdeck/outpost/stargazers)
 * **Stack:** Go | **License:** Apache-2.0 📜
 * **Description:** Open-source event destination and outbound webhook delivery engine built by Hookdeck. Allows SaaS applications to provide outgoing webhooks, multi-tenant destination management, retry policies, and customer event logging. 📬
 * **Best For:** Engineering teams looking to embed outbound event streaming and customer webhook subscriptions with minimal operational overhead. 🏗️
 
-### 7. [webhookx-io/webhookx](https://github.com/webhookx-io/webhookx) [![GitHub stars](https://img.shields.io/github/stars/webhookx-io/webhookx?style=social&color=white)](https://github.com/webhookx-io/webhookx/stargazers)
+### 7. [webhookx-io/webhookx](https://github.com/webhookx-io/webhookx) [![GitHub_Stars](https://img.shields.io/github/stars/webhookx-io/webhookx?style=social&color=white)](https://github.com/webhookx-io/webhookx/stargazers)
 * **Stack:** Go / SQLite / Redis | **License:** Apache-2.0 📜
 * **Description:** A modern, next-generation webhooks gateway for receiving, verifying, transforming, and delivering events. Features low latency, pluggable drivers, scheduled retries, and high-performance ingestion. ⚡
 * **Best For:** Microservices and modern event-driven backends looking for a fast, modular event proxy. 🧩
 
-### 8. [imann128/RelayCore](https://github.com/imann128/RelayCore) [![GitHub stars](https://img.shields.io/github/stars/imann128/RelayCore?style=social&color=white)](https://github.com/imann128/RelayCore/stargazers)
+### 8. [imann128/RelayCore](https://github.com/imann128/RelayCore) [![GitHub_Stars](https://img.shields.io/github/stars/imann128/RelayCore?style=social&color=white)](https://github.com/imann128/RelayCore/stargazers)
 * **Stack:** Go / Redis / Docker | **License:** Open Source 📜
 * **Description:** Self-hosted event gateway for webhook ingestion, HMAC-SHA256 signature verification, atomic Redis deduplication, JSONPath rule routing, payload transformations (GitHub/Calendar to Slack/Discord/Email), and dead-letter queue retries. 🛡️
 * **Best For:** Developers wanting an agile, self-hosted gateway with built-in payload transformation and event deduplication. 🔀
